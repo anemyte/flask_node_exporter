@@ -1,7 +1,7 @@
 # Flask Wrapper For Node Exporter
 
 This simple Flask app works like proxy for node exporter. It starts a manager process, which runs
-node_exporter binary on a random port and keeps it alive via healthchecks. When you access "/metrics" 
+node exporter binary on a random port and keeps it alive with healthchecks. When you access a 
 route on this Flask app, it makes a request to the exporter and returns you contents of that request. 
 
 # Why
